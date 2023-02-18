@@ -1,0 +1,13 @@
+.place__web {
+  grid-area: url;
+  display: grid;
+  align-content: end;
+  row-gap: 12px;
+}
+@media screen and (max-width: 767px) {
+    .place__web {
+        max-width: 288px;
+        width: 100%;
+        margin-left: 16px;
+      }
+}
