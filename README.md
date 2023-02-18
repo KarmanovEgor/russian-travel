@@ -19,4 +19,4 @@
 4. Оформление блоков, семантика и иерархия блоков их наименование выполнено согласно методологии БЭМ и БЭМ (Nested).
 
 –––––––––––––––––––––––––––––
-Сайт доступен по ссылке: https://karmanovegor.github.io/russian-travel/index.html
+Сайт доступен по ссылке: https://karmanovegor.github.io/russian-travel/
