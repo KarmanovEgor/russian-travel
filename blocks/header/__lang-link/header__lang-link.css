@@ -6,6 +6,10 @@
   line-height: 28px;
   font-style: normal;
 }
+.header__lang-link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
 @media screen and (max-width: 767px) {
     .header__lang-link {
         font-size: calc(18px + (24 - 18) * ((100vw - 320px)/(768 - 320)));

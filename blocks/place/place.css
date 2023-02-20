@@ -4,6 +4,7 @@
   color: #ffff;
   grid-template-columns: 460px 1fr;
   gap: 48px 40px;
+  outline: 1px solid red;
   grid-template-areas:
     "title url"
     "image text";
@@ -17,7 +18,7 @@
 }
 @media screen and (max-width: 1023px) {
     .place {
-        gap: 25px 28px;
+        gap: 48px 28px;
         grid-template-columns: 340px 1fr;
         margin: 73px 24px 0 24px;
       }

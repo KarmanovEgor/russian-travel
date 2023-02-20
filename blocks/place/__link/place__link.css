@@ -3,6 +3,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
+  outline: 1px solid red;
 }
 .place__link:hover {
   cursor: pointer;

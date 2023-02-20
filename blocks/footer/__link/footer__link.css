@@ -5,6 +5,10 @@
   font-weight: 400;
   line-height: 1;
 }
+.footer__link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
 @media screen and (max-width: 767px) {
     .footer__link {
         font-size: calc(24px + (24 - 14) * ((100vw - 320px)/(768 - 320)));
