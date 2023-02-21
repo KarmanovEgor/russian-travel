@@ -13,5 +13,6 @@
     .footer__link {
         font-size: calc(24px + (24 - 14) * ((100vw - 320px)/(768 - 320)));
         line-height: 24px;
+        width: calc(186px + (720 - 186) * ((100vw - 320px)/(768 - 320)));
       }
 }

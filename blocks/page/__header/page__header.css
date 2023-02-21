@@ -1,11 +1,26 @@
 .page__header {
-    margin: 28px auto 0 auto;
     display: flex;
     justify-content: space-between;
+    max-width: 1184px;
+    width: 100%;
+    margin: 28px auto 0 auto;
   }
 
-  @media screen and (max-width: 767px) {
-      .page__header {
-          margin: 16px auto 0 auto;
-        }
-  }
+@media screen and (max-width: 1279px) {
+    .page__header {
+        width: calc(928px + (1184 - 928) * ((100vw - 1024px)/(1280 - 1024)));
+      }
+}
+@media screen and (max-width: 1023px) {
+    .page__header {
+        width: calc(720px + (928 - 720) * ((100vw - 768px)/(1024 - 768)));
+
+      }
+}
+@media screen and (max-width: 767px) {
+    .page__header {
+        width: calc(288px + (720 - 288) * ((100vw - 320px)/(768 - 320)));
+        max-width: 288px;
+        margin: 16px auto 0 auto;
+      }
+}

@@ -3,9 +3,10 @@
   width: 100%;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.223;
+  line-height: 22px;
   color: #ffff;
   z-index: 2;
+  margin: 32px auto 0 auto;
 
 }
 @media screen and (max-width: 767px) {
@@ -13,7 +14,7 @@
         max-width: 288px;
         width: 100%;
         font-size: calc(14px + (18 - 14) * ((100vw - 320px)/(768 - 320)));
-        line-height: 16px;
+        line-height: calc(16px + (22 - 16) * ((100vw - 320px)/(768 - 320)));
         margin-top: 16px;
       }
 }
